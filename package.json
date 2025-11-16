@@ -1,0 +1,27 @@
+{
+  "name": "@mvasin/doc-converter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/convert.js",
+  "scripts": {
+    "build": "tsc",
+    "convert": "tsx convert.ts"
+  },
+  "bin": "dist/convert.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mammoth": "^1.11.0",
+    "pdf-parse": "^2.4.5",
+    "turndown": "^7.2.2",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/yargs": "^17.0.35",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
